@@ -13,7 +13,10 @@
   "engines": {
     "node": "^18.13.0 || ^20.9.0"
   },
-  "private": true,
+  "private": false,
+  "publishConfig": {
+    "registry": "http://44.198.161.189:8081/repository/npm-repo/"
+  },
   "dependencies": {
     "@angular/animations": "17.0.7",
     "@angular/common": "17.0.7",
